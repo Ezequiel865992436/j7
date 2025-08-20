@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcas Jeans Skinny</title>
+    
+    
+</head>
+<body>
+  <div class="flex-bx">
+      <div class="left">
+         
+          <div class="big-img">
+              <img src="imgs/IMG-20250809-WA0305.jpg" >
+          </div>
+       
+          <div class="images">
+
+            <div class="small">
+                <img src="imgs/IMG-20250809-WA0306.jpg"onclick="showImg(this.src)">
+            </div>
+
+            <div class="small">
+            <img src="imgs/IMG-20250809-WA0305.jpg" onclick="showImg(this.src)">
+        </div>
+        <div class="small">
+          <img src="imgs/IMG-20250809-WA0307.jpg"onclick="showImg(this.src)">
+      </div>
+
+        </div>
+        
+      </div>
+  
+      <div class="right">
+          <div class="url">Home > Product > Calça  Jeans Skinny</div> 
+          <div class="pname">Calça Jeans Skinny com bolso  <br> e Ziper</div>
+          <div class="price"> <p> <b class="antes">Antes</b> <s>4500</s> MZN</p> <br> <p><b class="agora">Agora</b> 
+            <b class="bprice">3500 </b> MZN  </p></div>
+          
+          <div class="size">
+              <p>Size:</p>
+              <div class="psize">P</div>
+              <div class="psize">M</div>
+              <div class="psize">G</div>
+              
+            
+          </div>    
+          <small><b class="oca">Ocasiao: </b>Dia a dia, passeio e encontro. <br>
+        <b class="estilo">Estilo:</b> Casual/Urbano. <br>
+        <b class="mat">Material:</b> Jeans(algodão  com elastano).
+        </small>
+          <br>
+          <div class="quantity">
+              <p>Quantidade:</p>
+              <input type="number"min="1" max="5" value="1">
+          </div>
+          <br>  
+          <div class="btn-box">
+              <button class="add">Whtsapp
+              <button class="cart">Pagar ja7</button>
+          </div>
+
+      </div>
+
+</div>
+</body>
+
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+small{
+    color: black;
+    font-size: 23px;
+}
+.oca{
+
+    color: blue;
+}
+
+.estilo{
+    color: red;
+}
+
+.mat{
+    color: blueviolet;
+}
+
+.flex-bx{
+    width: 1000px;
+    margin: 28px auto;
+    display: flex;
+    
+}
+
+.left{
+    width: 40%;
+}
+.big-img img{
+    width: 360px;
+    height: 330px;
+    border-radius: 9px;
+}
+
+.images{
+    gap: 30px;
+    display: flex;
+    justify-content:space-between;
+    width:10px;
+    margin-top: 10px;
+    
+}
+
+.small img{
+    
+    height: 100px;
+    width: 100px;
+}
+
+.small img:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 7px 10px darkorange;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: turquoise;
+    transition: all 0.30s ease;
+}
+
+.pname{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.price{
+    
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
+.url{
+    margin-top: 10px
+    font-size: 18px;
+}
+
+.size{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+gap: 50px;
+font-size: 18px;
+    
+}
+
+.psize{
+    font-size: 18px;
+    background-color:white;
+    border: 1px solid;
+    border-color: yellow;
+    border-radius: 12px;
+    box-shadow: 2px 3px 5px crimson;
+    cursor: pointer;
+    
+
+}
+
+.psize:hover{
+    box-shadow: 3px 5px 9px cornflowerblue;
+    transition: all 0.20s ease;
+}
+
+.quantity{
+    font-size: 18px;
+    margin-top: 10px;
+    display: flex; 
+    justify-content: space-between;
+width: 130px;
+}
+
+
+
+input{
+    color: brown;
+    border-color: mediumspringgreen;
+    font-size: 18px;
+border-radius: 12px;
+width: 35px;
+}
+
+.btn-box{
+    display: flex;
+    gap: 30px;
+    
+}
+.add{
+    color: cornflowerblue;
+    background-color: yellow;
+    border-radius: 12px;
+    border: none;
+    font-size: 30px;
+    padding: 13px;
+    width: 170px;
+    box-shadow: 5px 3px 6px yellowgreen;
+}
+
+.add:hover{
+    box-shadow: 4px 5px 10px plum;
+    transition: all 0.30s ease;
+}
+
+.cart{
+    color: cornflowerblue;
+    background-color: aquamarine;
+    border-radius: 12px;
+    border: none;
+    font-size: 30px;
+    padding: 13px;
+    width: 170px;
+    box-shadow: 5px 3px 6px cornflowerblue;
+}
+
+.cart:hover{
+    box-shadow: 4px 5px 10px cornflowerblue;
+    transition: all 0.30s ease;
+}
+
+.antes{
+color: white;
+    border-radius: 17px;
+padding: 5px;
+    background-color: red;
+}
+
+.nome-p{
+    text-align: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.agora{
+border-radius: 17px;
+padding: 5px;
+color: white;
+    background-color: blue;
+}
+
+.bprice{
+    font-size: 25px;
+}
+
+
+
+small{
+    color: green;
+}
+
+s{
+    color: red;
+    font-size: 25px;
+}
+
+.d{
+    position: fixed;
+ background-color: pink;
+ border-radius: 12px;
+
+}
+/*Pequenas*/
+@media(max-width:480px){
+
+    body{
+        background-color: red;
+    }
+    .flex-bx{width: 20vh;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0px 20px 0px;
+        margin-top: 20px;
+      font-size: 10px;
+
+    }
+
+    .big-img img{
+        width:317px;
+    }
+
+    .small img{
+        width: 85px;
+        height: 90px;
+        gap: 2px;
+    }
+    .oca{
+        font-size: 18px;
+    }
+    .pname{
+        font-size: 18px;
+    }
+    small{
+        font-size: 12px;
+    }
+
+    .size{
+        font-size: 14px;
+    }
+
+
+   .add{
+       font-size: 12px;
+       padding: 5px;
+       width: 55px;
+   }
+   
+   .cart{
+       font-size: 12px;
+       padding: 1px;
+       width: 55px;
+   }
+}
+
+
+
+
+
+@media(min-width:481px) and (max-width:768px){
+    body{
+        background-color: whet;
+    }
+    .flex-bx{width: 25vh;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0px 150px 0px;
+        margin-top: 30px;
+      font-size: 15px;
+     
+    }
+   
+    .big-img img{
+        width:300px;
+        height: 310px;
+    }
+
+    .small img{
+        width: 80px;
+        height:90px;
+        gap: 2px;
+    }
+    .oca{
+        font-size: 20px;
+    }
+    .pname{
+        font-size: 20px;
+    }
+    small{
+        font-size: 18px;
+    }
+
+    .size{
+        font-size: 18px;
+    }
+
+
+   .add{
+       font-size: 15px;
+       padding: 7px;
+       width: 70px;
+   }
+   
+   .cart{
+       font-size: 12px;
+       padding: 1px;
+       width: 55px;
+   }
+}
+
+
+
+</style>
+<script>
+    let bigImg=document.querySelector('.big-img img');
+function showImg(pic){bigImg.src=pic;}
+
+
+</script>
+
+</html>
